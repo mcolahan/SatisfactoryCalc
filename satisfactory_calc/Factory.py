@@ -1,10 +1,8 @@
-from re import L
 from building import *
 from Item import Item
 from Recipe import Recipe
-import abc
+
 import matplotlib.pyplot as plt
-import matplotlib
 import NameList
 from color_palette import *
 from typing import List

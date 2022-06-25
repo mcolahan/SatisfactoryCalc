@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image
 
-from AbstractFactoryObject import AbstractFactoryObject
+from satisfactorycalc.AbstractFactoryObject import AbstractFactoryObject
 from Item import *
 from NameList import SPLIT_OPTIONS
 
@@ -381,12 +381,20 @@ class Assembler(AbstractRecipeBuilding):
         super().__init__(building_json['Assembler'], 2, 1, pos, count, recipe)
         self.image = Image.open('./images/assembler_256.png')
 
-# manufacturer
+class Manufacturer(AbstractRecipeBuilding):
+    def __init__(self, recipe, pos, count=1):
+        super().__init__(building_json['Manufacturer'], 4, 1, pos, count, recipe)
+        self.image = Image.open('./images/manufacturer_256.png')
 
-# refinery
+class Refinery(AbstractRecipeBuilding):
+    def __init__(self, recipe, pos, count=1):
+        super().__init__(building_json['Refinery'], 2, 2, pos, count, recipe)
+        self.image = Image.open('./images/refinery_256.png')
 
-# packager
-
+class Packager(AbstractRecipeBuilding):
+    def __init__(self, recipe, pos, count=1):
+        super().__init__(building_json['Packager'], 2, 2, pos, count, recipe)
+        self.image = Image.open('./images/packager_256.png')
 
 #smelter
 class Smelter(AbstractRecipeBuilding): 
@@ -394,7 +402,11 @@ class Smelter(AbstractRecipeBuilding):
     def __init__(self, recipe, pos, count=1, clock=100):
         super().__init__(building_json['Smelter'], 1, 1, pos, count, recipe, clock=clock)
         self.image = Image.open('./images/smelter_256.png')
-#foundry
+
+class Foundry(AbstractRecipeBuilding): 
+    def __init__(self, recipe, pos, count=1, clock=100):
+        super().__init__(building_json['Foundry'], 1, 1, pos, count, recipe, clock=clock)
+        self.image = Image.open('./images/foundry_256.png')
 
 
 class AbstractRoutingBuilding(AbstractBuilding):
@@ -460,34 +472,5 @@ class Merger(AbstractRoutingBuilding):
         
 
 
-
-
-
-# class PowerConsumingBuilding(Building):
-
-#     def __init__(self, param_dict):
-#         super().__init__(param_dict)
-#         self.power_consumption = param_dict['metadata']['powerConsumption'] # MW
-#         self.power_consumption_exp = param_dict['metadata']['powerConsumptionExponent']
-
-
-# class PowerGeneratingBuilding(Building):
-
-#     def __init__(self, param_dict: dict):
-#         super().__init__(param_dict)
-
-
-
-# class ManufacturingBuilding(PowerConsumingBuilding):
-        
-#     def __init__(self, param_dict: dict):
-#         super().__init__(param_dict)
-
-        
-
-
-# if __name__ == "__main__":
-#     load_buildings()
-#     print([build.name for build in Building.buildings])
 
 
