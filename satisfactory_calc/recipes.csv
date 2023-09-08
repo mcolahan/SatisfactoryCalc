@@ -1,0 +1,38 @@
+Recipe Name	Building	Time (s)	Power (MW)	Input 1	Input 1 Ratio	Input 2	Input 2 Ratio	Input 3	Input 3 Ratio	Input 4	Input 4 Ratio	Output 1	Output 1 Ratio	Output 2	Output 2 Ratio
+AI Limiter	Assembler	12	15	Copper Sheet	5	Quickwire	20					AI Limiter	1		
+Alternate: Bolted Frame	Assembler	24	15	Reinforced Iron Plate	3	Screw	56					Modular Frame	2		
+Alternate: Bolted Iron Plate	Assembler	12	15	Iron Plate	18	Screw	50					Reinforced Iron Plate	3		
+Alternate: Caterium Wire	Constructor	4	4	Caterium Ingot	1							Wire	8		
+Alternate: Encased Industrial Pipe	Assembler	15	15	Steel Pipe	7	Concrete	5					Encased Industrial Beam	1		
+Alternate: Solid Steel Ingot	Foundry	3	16	Iron Ingot	2	Coal	2					Steel Ingot	3		
+Alternate: Steel Rotor	Assembler	12	15	Steel Pipe	2	Wire	6					Rotor	1		
+Alternate: Steel Screw	Constructor	12	4	Steel Beam	1							Screw	52		
+Automated Wiring	Assembler	24	15	Stator	1	Cable	20					Automated Wiring	1		
+Biomass (Leaves)	Constructor	5	4	Leaves	10							Biomass	5		
+Biomass (Wood)	Constructor	4	4	Wood	4							Biomass	20		
+Cable	Constructor	2	4	Wire	2							Cable	1		
+Caterium Ingot	Smelter	4	4	Caterium Ore	3							Caterium Ingot	1		
+Concrete	Constructor	4	4	Limestone	3							Concrete	1		
+Copper Ingot	Smelter	2	4	Copper Ore	1							Copper Ingot	1		
+Copper Sheet	Constructor	6	4	Copper Ingot	2							Copper Sheet	1		
+Encased Industrial Beam	Assembler	10	15	Steel Beam	4	Concrete	5					Encased Industrial Beam	1		
+Fabric	Assembler	4	15	Mycelia	1	Biomass	5					Fabric	1		
+Iron Ingot	Smelter	2	4	Iron Ore	1							Iron Ingot	1		
+Iron Plate	Constructor	6	4	Iron Ingot	3							Iron Plate	2		
+Iron Rod	Constructor	4	4	Iron Ingot	1							Iron Rod	1		
+Modular Frame	Assembler	60	15	Reinforced Iron Plate	3	Iron Rod	12					Modular Frame	2		
+Motor	Assembler	12	15	Rotor	2	Stator	2					Motor	1		
+Quartz Crystal	Constructor	8	4	Raw Quartz	5							Quartz Crystal	3		
+Quickwire	Constructor	5	4	Caterium Ingot	1							Quickwire	5		
+Reinforced Iron Plate	Assembler	12	15	Iron Plate	6	Screw	12					Reinforced Iron Plate	1		
+Rotor	Assembler	15	15	Iron Rod	5	Screw	25					Rotor	1		
+Screw	Constructor	6	4	Iron Rod	1							Screw	4		
+Silica	Constructor	8	4	Raw Quartz	3							Silica	5		
+Smart Plating	Assembler	30	15	Reinforced Iron Plate	1	Rotor	1					Smart Plating	1		
+Solid Biofuel	Constructor	4	4	Biomass	8							Solid Biofuel	4		
+Stator	Assembler	12	15	Steel Pipe	3	Wire	8					Stator	1		
+Steel Beam	Constructor	4	4	Steel Ingot	4							Steel Beam	1		
+Steel Ingot	Foundry	4	16	Iron Ore	3	Coal	3					Steel Ingot	3		
+Steel Pipe	Constructor	6	4	Steel Ingot	3							Steel Pipe	2		
+Versatile Framework	Assembler	24	15	Modular Frame	1	Steel Beam	12					Versatile Framework	2		
+Wire	Constructor	4	4	Copper Ingot	1							Wire	2		
